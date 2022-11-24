@@ -53,8 +53,8 @@ exports.deleteArray = async function (req, res, nxt) {
     try {
         var number1 = req.query.number;
             const index = DataCollection.indexOf(parseInt(number1));
-            if (index > -1) { // only splice array when item is found
-                DataCollection.splice(index, 1); // 2nd parameter means remove one item only
+            if (index > -1) { 
+                DataCollection.splice(index, 1); 
               res.json({ statusCode: 200, data: DataCollection, message: 'Success' })
             }
             else{
