@@ -1,59 +1,94 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>API & Express</title>
-<style>
-    table.border, th.border, td.border {
-  border: 1px solid;
-  border-collapse: collapse;
-}
-</style>
+    <meta charset="UTF-8">
+    <title>API & Express</title>
+    <style>
+        table.border,
+        th.border,
+        td.border {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+    </style>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </head>
+
 <body>
-<div>
-    <table style="width:100%">
-        <tr>
-            <td><span style="font-size: 22px;font-weight: 600;">SIT725 - Practice 2</span></td>
-        </tr>
-        <tr>
-            <td><span style="font-size: 12px;font-weight: 600;">By Navin Dharmarajan</span></td>
-        </tr>
-    </table>
-    <table class="border">
-        <tr >
-            <td class="border" style="width:10%">Method</td>
-            <td class="border"  style="width:40%">Url</td>
-            <td class="border"  style="width:40%">Sample URL</td>
-        </tr>
-        <tr>
-            <td class="border"  style="width:10%">GET</td>
-            <td class="border"  style="width:40%">http://localhost:3000/addTwoNumbers</td>
-            <td class="border"  style="width:40%">http://localhost:3000/addTwoNumbers?number1=4&number2=5</td>
-        </tr>
-        <tr>
-            <td class="border"  style="width:10%">POST</td>
-            <td class="border"  style="width:40%">http://localhost:3000/addition</td>
-            <td class="border"  style="width:40%">http://localhost:3000/addition?numbers=5,5,5</td>
-        </tr>
-        <tr>
-            <td class="border"  style="width:10%">POST</td>
-            <td class="border"  style="width:40%">http://localhost:3000/subTwoNumbers</td>
-            <td class="border"  style="width:40%">http://localhost:3000/subTwoNumbers?number1=4&number2=5</td>
-        </tr>
-        <tr>
-            <td class="border"  style="width:10%">PUT</td>
-            <td class="border"  style="width:40%">http://localhost:3000/updateArray</td>
-            <td class="border"  style="width:40%">http://localhost:3000/updateArray?number=9</td>
-        </tr>
-        <tr>
-            <td class="border"  style="width:10%">DELETE</td>
-            <td class="border"  style="width:40%">http://localhost:3000/deleteArray</td>
-            <td class="border"  style="width:40%">http://localhost:3000/deleteArray?number=2</td>
-        </tr>
-    </table>
-</div>
 
+    <nav>
+        <div class="auto-container">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><img src="img/findasocket.png">Locate A Socket</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">FInd A Station</a></li>
+                    <li><a href="#">Price</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+       <div class="bg-container">
+       
+       </div> 
+        <div class="auto-container">
+            <div class="row margin-top-20">
+                <div class="center-align">
+                  <div class="col s4"><i class="material-icons large icon-demo ico-cov">access_time</i><br><p>Saves Time</p></div>
+                  <div class="col s4"><i class="material-icons large icon-demo ico-cov">battery_charging_full</i><br><p>Charing History</p></div>
+                  <div class="col s4"><i class="material-icons large icon-demo ico-cov">location_on</i><br><p>Location Searching</p></div>
+                 
+                </div>
+              </div>
+            <div class="row bg-gray-500">
+                <div class="col s6 m6 text-justify">
+                    As the use of electric vehicles grows, so will the demand for charging stations. To help EV drivers in locating a 
+                    charging station along their route, we want to create an online portal called Locate a Socket. This application 
+                    makes use of location-based services to help drivers identify, access, and pay for EV charging.
+                </div>
+                <div class="col s6 m6">
+                 <img src="img/illu3.jpg" style="width:100%">
+                </div>
+              </div>
+           
+        </div>
+    </main>
+    <footer class="page-footer">
+        <div class="auto-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                       
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Price</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Terms and Condition</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Disclaimer</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2021 Copyright Find A Socket
+
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

@@ -1,0 +1,61 @@
+@use "@material/layout-grid/mdc-layout-grid";
+nav {
+    background-color: #fff;
+    color: #333;
+}
+
+nav .brand-logo {
+    color: #333;
+    display: inline-block;
+    font-size: 20px;
+    padding: -30px;
+    text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 1px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+}
+
+.brand-logo img {
+    height: 100%;
+    vertical-align: middle;
+    width:65px;
+}
+
+nav ul a {
+    color: #333;
+}
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.page-footer {
+    
+    background-color: #4ab48a;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  .bg-container{
+    background-image: url(/img/illu1.jpg);
+    height: 546px;
+    background-repeat-y: no-repeat;
+    margin-top:2px;
+  }
+  .margin-top-20{margin-top:20px;}
+
+  .ico-cov{
+    border: 4px solid #378f1a;
+    padding: 24px;
+    color: #378f1a;
+    border-radius: 100%;
+  }
+  .bg-gray-500{background-color: #eee;}
+
+  .text-justify{text-align: justify;}
+    

@@ -1,14 +1,14 @@
 var express = require("express");
 var app = express();
 var router = express.Router();
-var path = __dirname + '/views/';
+var path = __dirname + '/views';
 
 //Services
 var calculation = require("./services/calculation");
-
+app.use(express.static('assests'));
 
 router.get("/", function (req, res) {
-    res.sendFile(path + "index.html");
+    res.sendFile(path + "/index.html");
 });
 
 app.use("/", router);
